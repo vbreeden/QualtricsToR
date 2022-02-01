@@ -1,0 +1,41 @@
+[QualInputPath]
+input_file=../QualtricsResults/QualtricsOutput.csv
+
+[DropColumns]
+columns=
+    StartDate
+    EndDate
+    Status
+    IPAddress
+    Progress
+    Duration (in seconds)
+    Finished
+    RecordedDate
+    ResponseId
+    RecipientLastName
+    RecipientFirstName
+    RecipientEmail
+    ExternalReference
+    LocationLatitude
+    LocationLongitude
+    DistributionChannel
+    UserLanguage
+    Q1.1
+    Q1.2
+    SC0
+    counter
+    Create New Field or Choose From Dropdown...
+
+[DataframeColumns]
+columns=
+    Dance
+    MonoPoly
+    Recognized
+
+[OutputColumns]
+columns=
+    MonoPoly
+    Recognized
+
+[OutputPath]
+output_file=output/csv_data/export_data.csv
